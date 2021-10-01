@@ -12,5 +12,9 @@ export const BinSchema = new Schema({
     bottle_count: {
         type: SchemaTypes.Number,
         required: true
+    },
+    status:{
+        type:SchemaTypes.Boolean,
+        required:true
     }
 });

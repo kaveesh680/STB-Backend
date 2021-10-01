@@ -4,6 +4,7 @@ import {BinSchema} from "../schemas/BinSchema";
 export interface IBin {
     area: string
     bottle_count:number
+    status:boolean
 }
 
 export interface IBinModel extends IBin, Document {
